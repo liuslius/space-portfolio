@@ -45,8 +45,6 @@ const Navbar = () => {
               key={social.name}
               width={24}
               height={24} */}
-            />
-          ))}
         </div>
       </div>
     </div>
