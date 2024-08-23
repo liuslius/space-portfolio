@@ -51,7 +51,7 @@ const HeroContent = () => {
           skills.
         </motion.p>
         <motion.a
-          variatns={slideInFromLeft(1)}
+          variants={slideInFromLeft(1)}
           className="py-2 button-primary text-center text-white cursor-pointer rounded-1g max-w-[200px]"
         >
           Learn More.
