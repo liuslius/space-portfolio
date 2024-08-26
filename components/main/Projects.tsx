@@ -12,17 +12,17 @@ const Projects = () => {
       </h1>
       <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
         <ProjectCard
-          src="/NextWebsite.png"
+          src="/public/NextWebsite.png"
           title="Fun Games"
-          description="The first project that i worked on."
+          description="The project that i worked on."
         />
         <ProjectCard
-          src="/CardImage.png"
+          src="/public/CardImage.png"
           title="Interactive Applications"
           description="Another project that I worked on."
         />
         <ProjectCard
-          src="/SpaceWebsite.png"
+          src="/public/SpaceWebsite.png"
           title="Modern Websites"
           description="I made the site you are on right now"
         />

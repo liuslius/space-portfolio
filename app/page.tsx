@@ -7,9 +7,9 @@ export default function Home() {
   return (
     <main className="h-full w-full">
       <div className="flex flex-col gap-20">
-        <Hero />
-        <Projects />
-        {/* <Skills /> */}
+        {/* <Hero /> */}
+        {/* <Projects />
+        <Skills /> */}
       </div>
     </main>
   );
