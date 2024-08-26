@@ -4,6 +4,9 @@ import type { Metadata } from "next";
 import Footer from "@/components/main/Footer";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import Projects from "@/components/main/Projects";
+import Skills from "@/components/main/Skills";
+import Hero from "@/components/main/Hero";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -26,8 +29,11 @@ export default function RootLayout({
       >
         <StarsCanvas />
         <Navbar />
+        <Hero />
+        <Projects />
+        <Skills />
 
-        {children}
+        {/* {children} */}
         <Footer />
       </body>
     </html>
