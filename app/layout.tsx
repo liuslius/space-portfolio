@@ -11,7 +11,7 @@ import Hero from "@/components/main/Hero";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Space Portfolio",
+  title: "FrontEnd Portfolio",
   description: "This is my portfolio",
 };
 
@@ -29,11 +29,12 @@ export default function RootLayout({
       >
         <StarsCanvas />
         <Navbar />
+
         <Hero />
         <Projects />
         <Skills />
-
         {/* {children} */}
+
         <Footer />
       </body>
     </html>
