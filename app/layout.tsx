@@ -7,6 +7,7 @@ import "./globals.css";
 import Projects from "@/components/main/Projects";
 import Skills from "@/components/main/Skills";
 import Hero from "@/components/main/Hero";
+import Contact from "@/components/main/Contact";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -34,6 +35,7 @@ export default function RootLayout({
         <Projects />
         <Skills />
         {/* {children} */}
+        <Contact />
 
         <Footer />
       </body>
