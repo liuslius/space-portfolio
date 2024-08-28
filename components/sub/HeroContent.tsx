@@ -52,6 +52,7 @@ const HeroContent = () => {
         </motion.p>
         <motion.a
           variants={slideInFromLeft(1)}
+          href="https://shopping-cart-budget-helper.glitch.me"
           className="py-2 button-primary text-center text-white cursor-pointer rounded-1g max-w-[200px]"
         >
           Learn More.

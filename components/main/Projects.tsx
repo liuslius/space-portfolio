@@ -12,13 +12,14 @@ const Projects = () => {
       </h1>
       <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
         <ProjectCard
-          src="/public/NextWebsite.png"
-          title="Fun Games"
-          description="The project that i worked on."
+          href="https://shopping-cart-budget-helper.glitch.me"
+          src="/public/shopping-cart.png"
+          title="Interactive Applications"
+          description="A shopping cart helper: helps you stick to your budget, and save time at checkout."
         />
         <ProjectCard
           src="/public/CardImage.png"
-          title="Interactive Applications"
+          title="Fun Games"
           description="Another project that I worked on."
         />
         <ProjectCard
