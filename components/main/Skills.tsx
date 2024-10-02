@@ -84,7 +84,7 @@ const Skills = () => {
             loop
             muted
             autoPlay
-            src="/cards-video.webm"
+            src="/space-portfolio/cards-video.webm"
           />
         </div>
       </div>

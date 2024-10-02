@@ -69,7 +69,7 @@ const HeroContent = () => {
         </span>
         Games */}
         <Image
-          src="/mainIconsdark.svg"
+          src="/space-portfolio/mainIconsdark.svg"
           alt="work icons"
           height={650}
           width={650}
