@@ -1,13 +1,13 @@
-import Navbar from "@/components/main/Navbar";
-import StarsCanvas from "@/components/main/StarBackground";
+import Navbar from "../components/main/Navbar";
+import StarsCanvas from "../components/main/StarBackground";
 import type { Metadata } from "next";
-import Footer from "@/components/main/Footer";
+import Footer from "../components/main/Footer";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Projects from "@/components/main/Projects";
-import Skills from "@/components/main/Skills";
-import Hero from "@/components/main/Hero";
-import Contact from "@/components/main/Contact";
+import Projects from "../components/main/Projects";
+import Skills from "../components/main/Skills";
+import Hero from "../components/main/Hero";
+import Contact from "../components/main/Contact";
 
 const inter = Inter({ subsets: ["latin"] });
 
