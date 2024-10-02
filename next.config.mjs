@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: process.env.NODE_ENV === "production" ? "/space-portfolio" : "",
+  basePath: "/space-portfolio",
+  //basePath: process.env.NODE_ENV === "production" ? "/space-portfolio" : "",
   //output: "export", // <=== enables static exports
   images: { unoptimized: true },
   reactStrictMode: true,
