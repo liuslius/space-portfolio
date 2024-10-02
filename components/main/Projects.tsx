@@ -1,5 +1,6 @@
 import React from "react";
 import ProjectCard from "../sub/ProjectCard";
+import Link from "next/link";
 
 const Projects = () => {
   return (
@@ -12,20 +13,20 @@ const Projects = () => {
       </h1>
       <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
         <ProjectCard
-          // href="https://shopping-cart-budget-helper.glitch.me"
-          src="/public/shopping-cart.png"
+          src="/shopping-cart.png"
           title="Interactive Applications"
           description="A shopping cart helper: helps you stick to your budget, and save time at checkout."
+          // href="https://shopping-cart-budget-helper.glitch.me"
         />
         <ProjectCard
-          src="/public/CardImage.png"
+          src="/CardImage.png"
           title="Fun Games"
-          description="Another project that I worked on."
+          description="Pokemon clone style game. Find all your friends."
         />
         <ProjectCard
-          src="/public/SpaceWebsite.png"
+          src="/SpaceWebsite.png"
           title="Modern Websites"
-          description="I made the site you are on right now"
+          description="Such as the site you are on right now"
         />
       </div>
     </div>
