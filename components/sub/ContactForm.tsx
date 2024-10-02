@@ -28,7 +28,11 @@ const ContactForm = () => {
           className="w-full px-3 py-2 text-sm text-grey-200 placeholder-grey-400 bg-white border-0 rounded shadow"
         />
       </div>
-      <button className="px-6 mb-5 py-3 text-sm font-bold text-white uppercase transition-all duration-150 ease-linear bg-blue-500 hover:bg-blue-400">
+      <button
+        type="submit"
+        // onClick={() => console.log("you clicked")}
+        className="px-6 mb-5 py-3 text-sm font-bold text-white uppercase transition-all duration-150 ease-linear bg-blue-500 hover:bg-blue-400"
+      >
         Send message
       </button>
     </form>
